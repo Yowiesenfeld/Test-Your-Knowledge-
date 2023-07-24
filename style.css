@@ -1,0 +1,59 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+    border: 1px solid blue;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.body{
+    background-color: aqua;
+    overflow: hidden;
+    
+}
+
+.p{ 
+    color: #0e86b6;
+    font-size: 5;
+}
+
+/* this is the button that will lead to another page to veiw high scores. */
+.button{ 
+    outline: none;
+    background-color: black;
+    color: #15139e;
+    font-size: 5;
+}
+
+h1, h2 {
+    color: bisque;
+
+}
+/* this is the outer container section. this is where all the over containers will be in. */
+.large-outer-container {
+    padding: 10px;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+
+}
+
+.top-bar p {
+    float: right;
+
+}
+
+.inner-smaller-container{
+    background-color: black;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+}
