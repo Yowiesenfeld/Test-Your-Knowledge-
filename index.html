@@ -7,7 +7,6 @@
         <meta name="viewport" content="width-device-width, initial-scale-1">
         <title>Test Your Knowledge</title>
         <link rel="stylesheet" href="./style.css">
-
     </head>
 
     <body>
@@ -25,12 +24,13 @@
                 <header class="intro">
                     <h1> Test Your Knowledge</h1>
                     <p> To get started click on the blue button. Good Luck!</p>
-                    <button> Start Quiz: </button>
+                    <button id="start-btn"> Start Quiz: </button>
 
                 </header>
 
                 <main>
-                    <section class=" question-screen">
+                    <section class="question-screen hidden" >
+
                         <h2> Questions Here</h2>
                         <!-- this is where the multipe choice answers will be -->
                         <ul>
@@ -42,7 +42,7 @@
                         </ul>
                     </section>
 
-                    <section class="quiz-finish-screen">
+                    <section class="quiz-finish-screen hidden">
                         <h2>Quiz Finished!</h2>
                         <p> Your Score: 00</p>
 
@@ -53,7 +53,7 @@
                         </div>
                     </section>
 
-                    <section class="high-score">
+                    <section class="high-score hidden">
                         <h2> Highscores:</h2>
                         <ol>
                             <li>ym</li>
@@ -69,6 +69,6 @@
             </div>
         
         </div>
-
+        <script src="./style.js"></script>
     </body>
 </html>

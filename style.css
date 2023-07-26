@@ -4,36 +4,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
-
-    border: 1px solid blue;
-
+    border: 1px solid red;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    color: orange;
 }
 
-.body{
-    background-color: aqua;
-    overflow: hidden;
-    
+body{
+    background-color: green;
+    overflow: hidden;   
 }
 
 .p{ 
-    color: #0e86b6;
+    color: yellow;
     font-size: 5;
 }
 
 /* this is the button that will lead to another page to veiw high scores. */
-.button{ 
+button{ 
     outline: none;
-    background-color: black;
-    color: #15139e;
+    background-color: purple;
+    color: pink;
     font-size: 5; 
 }
 
 h1, h2 {
-    color: bisque;
+    color: gold;
     text-align: center;
     display: none;
 
@@ -59,7 +54,7 @@ li{
 }
 
 .inner-smaller-container{
-    background-color: black;
+    background-color: silver;
     height: 100%;
     width: 50%;
     margin: 0 auto;
@@ -72,7 +67,7 @@ li{
     margin-top: 25vh;
     margin-left: 10%;
     margin-right: 10%;
-    background-color: beige;
+    background-color: gray;
 
 }
 .intro p{
@@ -90,7 +85,7 @@ li{
 
 /* question screen */
 .question-screen{
-    display: none;
+    /* display: none; */
 }
 
 /* finish screen */
@@ -105,4 +100,8 @@ li{
 .high-score ol{
     overflow-y: scroll;
     max-height: 225px;
+}
+
+.hidden{
+    display: none;
 }
